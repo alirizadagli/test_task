@@ -159,6 +159,7 @@ class _HomePageState extends State<HomePage> {
               onPressed: () {
                 setState(() {
                   results.clear();
+                  operationControl.updateAll((key, value) => false);
                 });
               },
             ),
