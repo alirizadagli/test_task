@@ -189,8 +189,8 @@ class _HomePageState extends State<HomePage> {
       onTap: () {
         setState(() {});
       },
-      onSubmitted: (_){
-        if(!operationControl.containsValue(true)) {
+      onSubmitted: (_) {
+        if (!operationControl.containsValue(true)) {
           setState(() {
             operationControl['Add'] = true;
           });
